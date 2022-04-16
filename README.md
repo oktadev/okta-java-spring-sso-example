@@ -2,9 +2,7 @@
  
 This example app demonstrates how to use Okta and Spring Boot to implement single sign-on with a separate client application and resource server.
 
-Please read [Build a Single Sign-on Application in Java](https://<need.a.link>) to see how this app was created.
-
-#### ^-- TODO: needs a link --^
+Please read [Build a Single Sign-on Application in Java](https://developer.okta.com/blog/2020/01/29/java-single-sign-on) to see how this app was created.
 
 **Prerequisites:** 
 
@@ -103,9 +101,7 @@ This example uses the following open source libraries:
 
 ## Help
 
-Please post any questions as comments on the [blog post](https://need.a.link), or visit our [Okta Developer Forums](https://devforum.okta.com/). You can also email developers@okta.com if you'd like to create a support ticket.
-
-#### ^-- TODO: needs a link --^
+Please post any questions as comments on the [blog post](https://developer.okta.com/blog/2020/01/29/java-single-sign-on), or visit our [Okta Developer Forums](https://devforum.okta.com/).
 
 ## License
 
