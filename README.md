@@ -23,7 +23,7 @@ Please read [Build a Single Sign-on Application in Java](https://developer.okta.
 To install this example application, run the following commands:
 
 ```bash
-git clone https://<need.a.link> java-single-sign-on
+git clone https://github.com/oktadev/okta-java-spring-sso-example.git java-single-sign-on
 cd java-single-sign-on
 ```
 
@@ -33,7 +33,7 @@ Note: the tutorial linked to at the top of the README demonstrates how to config
 
 ### Create an OIDC Server Application in Okta
 
-You will need to [create an OIDC Application in Okta](http://need.a.link) to get your values to perform authentication. 
+You will need to create an OIDC Application in Okta to get your values to perform authentication. 
 
 Log in to your Okta Developer account (or [sign up](https://developer.okta.com/signup/) if you don’t have an account) and navigate to **Applications** > **Add Application**. Click **Service**, click **Next**, and give the app a name you’ll remember. You'll need the Client ID and Client Secret for the resource server below.
 
@@ -55,7 +55,7 @@ Notice that here the audience is `api://default` instead of `api://oidcauthserve
 
 ### Create an OIDC Web Client Application in Okta
 
-You will need to [create another OIDC Application in Okta](http://need.a.link) to get your values to perform authentication. 
+You will need to create another OIDC Application in Okta to get your values to perform authentication. 
 
 Log in to your Okta Developer account and navigate to **Applications** > **Add Application**. Click **Single-Page App**, click **Next**, and give the app a name you’ll remember. Specify `http://localhost:8080/login/oauth2/code/okta` as a **Login Redirect URI**. Specify `http://localhost:8080` as a **Base URI**. Click **Done**. 
 
